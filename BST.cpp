@@ -169,20 +169,28 @@ void printPostOrder(BTnode * x){
 }
 
 int height(BTnode *x){
+    static int height_var = 0;
+    static int height_var2 = 0;
     if (x == NULL){
         return 0;
     }
     
    
-    int heightLeft = 1+height(x->left);
-    int heightRight = 1+height(x->right);
+    int heightLeft = height(x->left);
+    int heightRight = height(x->right);
 
     if(heightLeft > heightRight){
-        return heightLeft; 
+        
+        return 1+heightLeft; 
     }
     else{
-        return heightRight; 
+        return 1+heightRight; 
     }
+
+    if
+    
+
+
 }
 
 int countNodes(BTnode *x){

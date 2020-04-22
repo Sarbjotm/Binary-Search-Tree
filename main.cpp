@@ -11,7 +11,7 @@ int main () {
     int max = findmax(tree);
     printf("maximum value: %d\n", max);
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 4; i++) {
         int newnum = rand() % 50 + 1;
         printf("Inserting . . . %d\n", newnum);
         // Test your insert function
