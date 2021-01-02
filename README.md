@@ -1,4 +1,4 @@
-# binarySearchTree
+# BST
 
 A binary search tree has the propety that all values in the left subtree are <= to its parent, and the values in the right subtree are greater then the parent. 
 
